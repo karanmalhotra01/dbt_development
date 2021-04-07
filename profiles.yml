@@ -6,14 +6,14 @@ default:
 
     dev: # User-Password config
       type: snowflake
-      account: your-snowflake-account-id-here
-      user: DBT_CLOUD_DEV
-      password: your-password-here
-      role: TRANSFORMER_DEV
+      account: ti85806.ap-south-1.aws
+      user: KARANMALHOTRA
+      password: Grass@89
+      role: ACCOUNTADMIN
       database: DEV
-      warehouse: TRANSFORMING
-      schema: dbt_your-username-here
-      threads: 2
+      warehouse: COMPUTE_WH
+      schema: DBT_KMALHOTRA
+      threads: 1
       client_session_keep_alive: False
 
   target: dev
